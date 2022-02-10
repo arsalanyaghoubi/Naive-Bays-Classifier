@@ -115,8 +115,6 @@ class NaiveBayes():
 
 if __name__ == '__main__':
     nb = NaiveBayes()
-    nb.train('D:\\Brandeis University\\Second Semester\\'
-             'NLP II\\Assignment\\Assignment_1\\large dataset\\train')
-    results = nb.test('D:\\Brandeis University\\Second Semester\\NLP II\\Assignment\\'
-                                         'Assignment_1\\large dataset\\dev')
+    nb.train("INSERT THE LINK TO THE TRAINING DATASET")
+    results = nb.test("INSERT THE LINK TO THE TEST DATASET")
     nb.evaluate(results)
