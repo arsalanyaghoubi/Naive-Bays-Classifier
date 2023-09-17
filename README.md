@@ -4,6 +4,7 @@ Dataset: NLTK movie review corpus
 Overall Accuracy: 75
 Precision, Recall and F1 score for + : 74-77-75
 Precision, Recall and F1 score for - : 75-72-74
+
 To calculate the matrices for this simple task you could use the matricies as below.
 
 
